@@ -40,17 +40,17 @@ for (let i = 0; i < bitMap.length; i++) {
 }
 
 
-// create red and blue divs
-const red = new Div(20, 20, 'green');
-const blue = new Div(20, 20, 'black');
+// create green and black divs
+const green = new Div(20, 20, 'green');
+const black = new Div(20, 20, 'black');
 
 
 //check array and draw image (type conversions ==)
 for (let i = 0; i < readyBitMap.length; i++) {
     if (readyBitMap[i] == 0) {
-        blue.draw()
+        green.draw()
     } else if (readyBitMap[i] == 1) {
-        red.draw();
+        black.draw();
     } else {
         adBr();
     }
