@@ -1,4 +1,7 @@
 # createBinarImage
+
+Open this by RAW button on your right side ---> 
+
 Make your 0101 image in canvas
 
 By default batman image is drawing, but you can change it by putting your '0101012' string in "bitMap" variable.
