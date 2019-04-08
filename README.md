@@ -1,4 +1,4 @@
-# createBinarImage
+# createImageWithNumbers
 
 Make image with 012 numbers.
 
